@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sueños del Mar</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<header>
+
+</header>
+
+<body>
+    <section class="fond">
+        <section class="titulo">
+            <h1>Sueños del Mar</h1>
+        </section>
+
+        <div class="texto">
+            <p>Descubre el encanto único del Hotel Sueños del Mar, donde el lujo se fusiona con la serenidad del océano.
+                Sumérgete en una experiencia inolvidable junto al mar turquesa, disfrutando de nuestras elegantes
+                habitaciones, exquisita gastronomía y servicio personalizado. En Sueños del Mar, tus vacaciones se
+                convierten en un sueño hecho realidad. ¡Bienvenidos a un paraíso de elegancia y tranquilidad cerca del
+                mar!
+            </p>
+        </div>
+
+    </section>
+
+    <div class="formulario">
+        <form action="#">
+            <div class="fo">
+                <label for="nombres">Nombre completo</label>
+                <input type="text" id="nombres" required>
+            </div>
+            <div class="fo">
+                <label for="email">Correo</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="fo">
+                <label for="fecha_llegada">Fecha llegada</label>
+                <input type="date" id="fecha_llegada" required>
+            </div>
+            <div class="fo">
+                <label for="fecha_salida">Fecha salida</label>
+                <input type="date" id="fecha_salida" required>
+            </div>
+            <div class="fo">
+                <label for="habitacion">Tipo de habitacion</label>
+                <select name="tipo_habitacion">
+                    <option value="" selected></option>
+                    <option value="Individual">Individual</option>
+                    <option value="Doble">Doble</option>
+                    <option value="Suite">Suite</option>
+                </select>
+            </div>
+            <div class="fo">
+                <label for="preferencia_cama">Preferencia de cama</label>
+                <br>
+                <br>
+                <label class="radio-inline">
+                    <input type="radio" name="preferencia_cama" value="0"> Una cama grande
+                </label><br>
+                <label class="radio-inline">
+                    <input type="radio" name="preferencia_cama" value="2"> Una cama pequeña
+                </label><br>
+                
+            </div>
+            <section class="comentarios">
+                <div class="comentario">
+                    <textarea name="comentario" rows="10" cols="50">Escribe algo aquí</textarea>
+                </div>
+            </section>
+        </form>
+    </div>
+
+    <div class="carousel">
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        
+        <div class="carousel-inner">
+            <img src="/img/pexels-pixabay-258154.jpg" alt="Image 1">
+            <img src="/img/d.jpg" alt="Image 2">
+        </div>
+
+        <label for="slide1" class="arrow left-arrow">&#10094;</label>
+        <label for="slide2" class="arrow right-arrow">&#10095;</label>
+    </div>
+
+    <footer>
+
+        <div class=”contenu-footer”>
+
+        
+
+          <div class=”bloc footer-contact”>
+            <h3>Contactanos</h3>
+            <p>Telefono: (01) 291293</p>
+            <p>supportclient@contact.com</p>
+            <p>San Vicente - Cañete - Lima</p>
+          </div>
+
+        <p class="copyright">Company Hotel Sueños del Mar © 2024</p>
+
+ </div>
+
+  </footer>
+
+</body>
+</html>

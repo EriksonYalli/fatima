@@ -1,0 +1,142 @@
+body {
+    font-family: 'Lexend', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.fond {
+    background-image: url('/img/pexels-pixabay-258154.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texto {
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+.formulario {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: #000000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.fo {
+    margin-bottom: 15px;
+}
+
+.comentarios {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.radio-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.carousel img {
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.carousel input {
+    display: none;
+}
+
+.carousel .arrow {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    height: 3rem; 
+    justify-content: center;
+    position: absolute;
+    bottom: -35%; 
+    width: 3%; 
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+#slide1:checked ~ .carousel-inner {
+    transform: translateX(0);
+}
+#slide2:checked ~ .carousel-inner {
+    transform: translateX(-100%);
+}
+
+
+
+footer {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #706d6d;
+    padding: 20px 0;
+    color: #f5f5f5;
+    text-align: center;
+  }
+  
+
+
+
+
+  
+  
+
+  
